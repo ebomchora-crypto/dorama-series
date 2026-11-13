@@ -1,175 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Language" content="pt-BR">
-    <meta name="google" content="notranslate">
-    <title>SPECIMEN 44 - O Experimento Proibido</title>
-    <!-- BUILD_EASY_DATA:eyJlbGVtZW50cyI6W3siaWQiOiJlbF8xNzY2NjE2MDAwMTk4X3VueTg3OXJ2ZyIsInR5cGUiOiJzZWN0aW9uIiwic3R5bGVzIjp7ImFuaW1hdGlvbiI6Im5vbmUifSwiY29udGVudCI6IiIsImNoaWxkcmVuIjpbeyJpZCI6ImVsXzE3NjY2Mjk2MzY5ODFfdmJwZjF1OHp1IiwidHlwZSI6ImhlYWRpbmciLCJzdHlsZXMiOnsicGFkZGluZyI6IjE2cHgiLCJmb250U2l6ZSI6IjE0cHgiLCJhbmltYXRpb24iOiJub25lIiwidGV4dEFsaWduIjoiY2VudGVyIiwidGV4dENvbG9yIjoiI2Y1ZWMwMCIsImZvbnRXZWlnaHQiOiI3MDAifSwiY29udGVudCI6IvCflKVFbSBhbHRhIG5vIEJyYXNpbCJ9LHsiaWQiOiJlbF8xNzY2NjE2MDAwMTk4X3NpanRpa2w0cCIsInR5cGUiOiJoZWFkaW5nIiwic3R5bGVzIjp7InBhZGRpbmciOiIwIDAgMTZweCIsImZvbnRTaXplIjoiMjhweCIsImFuaW1hdGlvbiI6ImZhZGUtaW4iLCJ0ZXh0QWxpZ24iOiJjZW50ZXIiLCJ0ZXh0Q29sb3IiOiIjZmZmZmZmIiwiZm9udFdlaWdodCI6IjcwMCJ9LCJjb250ZW50IjoiTyByZXRvcm5vIGRvIGF0YWNhbnRlIHBlcmRpZG8gIn0seyJpZCI6ImVsXzE3NjY2MTYwMDAxOThfb3JwOGJlbXJlIiwidHlwZSI6InRleHQiLCJzdHlsZXMiOnsicGFkZGluZyI6IjAgMCAyNHB4IiwiZm9udFNpemUiOiIxNHB4IiwiYW5pbWF0aW9uIjoiZmFkZS1pbiIsInRleHRBbGlnbiI6ImNlbnRlciIsInRleHRDb2xvciI6IiNmZmFiMDEiLCJmb250V2VpZ2h0IjoiNDAwIn0sImNvbnRlbnQiOiJBcMOzcyBkZXogYW5vcyBkZXNhcGFyZWNpZG8gZG8gZnV0ZWJvbCwgdW0gYXRhY2FudGUgYnJpbGhhbnRlIHJldG9ybmEgw6Agc3VhIGNpZGFkZSBuYXRhbCBwYXJhIHRyZWluYXIgdW0gdGltZSBhbWFkb3IgZSByZWNvbnF1aXN0YXIgc2V1IC4uLiJ9LHsiaWQiOiJlbF8xNzc0MzYzNjI5OTEzXzh5ZTVnN3l6bCIsInNyYyI6Imh0dHBzOi8vaWlsaS5pby9Db0Qydm92Lm1kLmpwZyIsInR5cGUiOiJpbWFnZSIsInN0eWxlcyI6eyJ3aWR0aCI6IjUwJSIsImhlaWdodCI6ImF1dG8iLCJhbmltYXRpb24iOiJub25lIiwiYm9yZGVyUmFkaXVzIjoiOHB4In0sImNvbnRlbnQiOiIifSx7ImlkIjoiZWxfMTc2NjYxNjAwMDE5OF9qNnV5bzV0bjgiLCJ0eXBlIjoic3BhY2VyIiwic3R5bGVzIjp7ImhlaWdodCI6IjI0cHgiLCJhbmltYXRpb24iOiJub25lIn0sImNvbnRlbnQiOiIifSx7ImlkIjoiZWxfMTc4MTcxNDk3NDMzOV9tbDBhenR3MWkiLCJ0eXBlIjoidmlkZW8iLCJjb250ZW50IjoiIiwic3R5bGVzIjp7IndpZHRoIjoiNzAlIiwiaGVpZ2h0IjoiMzE1cHgiLCJib3JkZXJSYWRpdXMiOiI4cHgiLCJhbmltYXRpb24iOiJub25lIn0sInNyYyI6IiJ9XSwic2VjdGlvbkRhdGEiOnsicGFkZGluZ1RvcCI6IjQwcHgiLCJwYWRkaW5nTGVmdCI6IjIwcHgiLCJwYWRkaW5nUmlnaHQiOiIyMHB4IiwicGFkZGluZ0JvdHRvbSI6IjBweCIsImJhY2tncm91bmRDb2xvciI6IiMwZjBmMWEifX0seyJpZCI6ImVsXzE3NjY2MTYwMDAxOThfMTVoODdlaGpvIiwidHlwZSI6InNlY3Rpb24iLCJzdHlsZXMiOnsiYW5pbWF0aW9uIjoibm9uZSJ9LCJjb250ZW50IjoiIiwiY2hpbGRyZW4iOlt7ImlkIjoiZWxfMTc2NjYxNjAwMDE5OF9wYXgwcDhpYzIiLCJ0eXBlIjoib2ZmZXIiLCJzdHlsZXMiOnsicGFkZGluZyI6IjMycHgiLCJhbmltYXRpb24iOiJzY2FsZSIsInRleHRBbGlnbiI6ImNlbnRlciIsInRleHRDb2xvciI6IiNmZmZmZmYiLCJib3JkZXJDb2xvciI6IiMyYTJhM2UiLCJib3JkZXJXaWR0aCI6IjFweCIsImJvcmRlclJhZGl1cyI6IjE2cHgiLCJiYWNrZ3JvdW5kQ29sb3IiOiIjMDAwMDAwIn0sImNvbnRlbnQiOiIiLCJvZmZlckRhdGEiOnsicG9wdXAiOnsiYmFkZ2UiOiJVUEdSQURFIFBSRU1JVU0iLCJwcmljZSI6IlIkIDEwLDAwIiwidGl0bGUiOiJQYWNvdGUgUHJlbWl1bSIsImVuYWJsZWQiOnRydWUsImJlbmVmaXRzIjpbIjM1MDArIG1pbmlzc8OpcmllcyIsIkxhbsOnYW1lbnRvcyBkacOhcmlvcyBkZSBzw6lyaWVzIiwiVG9kb3MgZG9yYW1hcyBkb3MgYXBwcyBtYWlzIGZhbW9zb3MiLCJBY2Vzc28gdml0YWzDrWNpbyBhbyBjb250ZcO6ZG8iLCJOdW5jYSBtYWlzIHBhZ3VlIHBvciBuZW5odW1hIHPDqXJpZfCfmI0iXSwiYWNjZW50Q29sb3IiOiIjZDRhODUzIiwicGF5bWVudFR5cGUiOiJBY2Vzc28gVklUQUzDjUNJTyIsInByaW1hcnlCdXR0b25VcmwiOiJodHRwczovL3BheS5sb3dpZnkuY29tLmJyL2NoZWNrb3V0P3Byb2R1Y3RfaWQ9dGVzdGUiLCJwcmltYXJ5QnV0dG9uVGV4dCI6IlFVRVJPIE8gUFJFTUlVTSBQT1IgUiQxMCwwMCIsInNlY29uZGFyeUJ1dHRvblVybCI6Imh0dHBzOi8vcGF5Lmxvd2lmeS5jb20uYnIvY2hlY2tvdXQ/cHJvZHVjdF9pZD10ZXN0ZSIsInNlY29uZGFyeUJ1dHRvblRleHQiOiJRdWVybyBzw7MgYSBzw6lyaWUgcG9yIFIkNSAifSwicHJpY2UiOiJSJCA1LDAwIiwidGl0bGUiOiJPIHF1ZSB2b2PDqiB2YWkgcmVjZWJlcjoiLCJ2YXJpYW50IjoibWluaW1hbCIsImJlbmVmaXRzIjpbIlRlbXBvcmFkYSBDb21wbGV0YSAoVG9kb3Mgb3MgZXBpc8OzZGlvcykiLCJBY2Vzc28gVml0YWzDrWNpbyBlIGltZWRpYXRvICIsIlNlbSBtZW5zYWxpZGFkZSAoUGFnYW1lbnRvIMO6bmljbykiXSwiYnV0dG9uVXJsIjoiaHR0cHM6Ly9wYXkubG93aWZ5LmNvbS5ici9jaGVja291dD9wcm9kdWN0X2lkPXRnSlg4YiIsImJ1dHRvblRleHQiOiJRdWVybyBjb21wbGV0byBwb3IgNSwwMCIsInByaWNlQ29sb3IiOiIjZmRjNzAwIiwiYWNjZW50Q29sb3IiOiIjMjJjNTVlIiwiYnV0dG9uQ29sb3IiOiIjZmZhYjAxIiwicGF5bWVudFR5cGUiOiIoUGFnYW1lbnRvIMO6bmljbykiLCJtaW5pbWFsQ2hlY2tDb2xvciI6IiNmZGM3MDAifX0seyJpZCI6ImVsXzE3NjY2MTYwMDAxOThfcGtiajEyZW44IiwidHlwZSI6ImhlYWRpbmciLCJzdHlsZXMiOnsicGFkZGluZyI6IjMwcHgiLCJmb250U2l6ZSI6IjE4cHgiLCJhbmltYXRpb24iOiJmYWRlLWluIiwidGV4dEFsaWduIjoiY2VudGVyIiwidGV4dENvbG9yIjoiI2ZmZmZmZiIsImZvbnRXZWlnaHQiOiI3MDAifSwiY29udGVudCI6IlF1ZW0gYXNzaXN0aXUsIGFtb3Uh4p2k77iPIn0seyJpZCI6ImVsXzE3NjY2MTYwMDAxOThfejk3aDk5ZnhyIiwidHlwZSI6ImNhcm91c2VsIiwic3R5bGVzIjp7IndpZHRoIjoiMTAwJSIsImhlaWdodCI6IjUwMHB4IiwiYW5pbWF0aW9uIjoiZmFkZS1pbiIsImJvcmRlclJhZGl1cyI6IjE2cHgifSwiY29udGVudCI6IiIsImNhcm91c2VsRGF0YSI6eyJpbWFnZXMiOlsiaHR0cHM6Ly9pLmliYi5jby9ZVGJncFRIcy90ZXN0aW1vbmlhbC0yLndlYnAiLCJodHRwczovL2kuaWJiLmNvL3p2MTBncngvdGVzdGltb25pYWwtMS53ZWJwIl0sImF1dG9QbGF5Ijp0cnVlLCJpbnRlcnZhbCI6NDAwMH19XSwic2VjdGlvbkRhdGEiOnsicGFkZGluZ1RvcCI6IjQwcHgiLCJwYWRkaW5nTGVmdCI6IjIwcHgiLCJwYWRkaW5nUmlnaHQiOiIyMHB4IiwicGFkZGluZ0JvdHRvbSI6IjQwcHgiLCJiYWNrZ3JvdW5kQ29sb3IiOiIjMGYwZjFhIn19LHsiaWQiOiJlbF8xNzY2NjE2MDAwMTk4XzA4b2pkY3o1NyIsInR5cGUiOiJzZWN0aW9uIiwic3R5bGVzIjp7ImFuaW1hdGlvbiI6Im5vbmUifSwiY29udGVudCI6IiIsImNoaWxkcmVuIjpbeyJpZCI6ImVsXzE3NzM0NTIxNzk2NjBfcWVqaW53NzY3IiwidHlwZSI6IndoYXRzYXBwLWNhcmQiLCJzdHlsZXMiOnsicGFkZGluZyI6IjE2cHggMjRweCIsImFuaW1hdGlvbiI6ImZhZGUtaW4iLCJ0ZXh0QWxpZ24iOiJjZW50ZXIiLCJ0ZXh0Q29sb3IiOiIjMWExYTJlIiwiYm9yZGVyQ29sb3IiOiIjMjVEMzY2IiwiYm9yZGVyV2lkdGgiOiIycHgiLCJib3JkZXJSYWRpdXMiOiIxMnB4IiwiYmFja2dyb3VuZENvbG9yIjoiI2ZmZmZmZiJ9LCJjb250ZW50IjoiQXDDs3MgYSBjb21wcmEsIHZvY8OqIHJlY2ViZSBhY2Vzc28gZGlyZXRhbWVudGUgbm8gc2V1IFdoYXRzQXBwIn0seyJpZCI6ImVsXzE3NjY2MTYwMDAxOThfNGU1Yjl0ZXo4IiwidHlwZSI6Imd1YXJhbnRlZSIsInN0eWxlcyI6eyJiYWNrZ3JvdW5kQ29sb3IiOiIjMDAwMDAwIn0sImNvbnRlbnQiOiIiLCJndWFyYW50ZWVEYXRhIjp7ImRheXMiOjcsInRpdGxlIjoiR2FyYW50aWEgZGUgNyBEaWFzIiwiZmVhdHVyZXMiOlsiU2VtIGJ1cm9jcmFjaWEiLCJEZXZvbHXDp8OjbyBpbWVkaWF0YSIsIlNlbSBwZXJndW50YXMiXSwiYWNjZW50Q29sb3IiOiIjZjVlYzAwIiwiZGVzY3JpcHRpb24iOiJTZSB2b2PDqiBuw6NvIGZpY2FyIDEwMCUgc2F0aXNmZWl0byBjb20gbyBhY2Vzc28sIGRldm9sdmVtb3Mgc2V1IGRpbmhlaXJvIGludGVncmFsbWVudGUgZW0gYXTDqSA3IGRpYXMgYXDDs3MgYSBjb21wcmEuIn19XSwic2VjdGlvbkRhdGEiOnsicGFkZGluZ1RvcCI6IjQwcHgiLCJwYWRkaW5nTGVmdCI6IjIwcHgiLCJwYWRkaW5nUmlnaHQiOiIyMHB4IiwicGFkZGluZ0JvdHRvbSI6IjQwcHgiLCJiYWNrZ3JvdW5kQ29sb3IiOiIjMGYwZjFhIn19LHsiaWQiOiJlbF8xNzY2NjE2MDAwMTk4X2dsc2tpeTFwbiIsInR5cGUiOiJzZWN0aW9uIiwic3R5bGVzIjp7ImFuaW1hdGlvbiI6Im5vbmUifSwiY29udGVudCI6IiIsImNoaWxkcmVuIjpbXSwic2VjdGlvbkRhdGEiOnsicGFkZGluZ1RvcCI6IjQwcHgiLCJwYWRkaW5nTGVmdCI6IjIwcHgiLCJwYWRkaW5nUmlnaHQiOiIyMHB4IiwicGFkZGluZ0JvdHRvbSI6IjYwcHgiLCJiYWNrZ3JvdW5kQ29sb3IiOiIjMGYwZjFhIn19XSwicGFnZVN0eWxlcyI6eyJiYWNrZ3JvdW5kQ29sb3IiOiIjZmZmZmZmIiwibWF4V2lkdGgiOiI0ODBweCIsInBhZGRpbmciOiIyMHB4IiwidXNlR3JhZGllbnQiOmZhbHNlLCJncmFkaWVudENvbG9yMSI6IiMxYTFhMmUiLCJncmFkaWVudENvbG9yMiI6IiMwZjBmMWEiLCJncmFkaWVudERpcmVjdGlvbiI6InRvIGJvdHRvbSIsImZvbnRGYW1pbHkiOiJJbnRlciwgc2Fucy1zZXJpZiJ9LCJzY3JpcHRTZXR0aW5ncyI6eyJ1dG1pZnlTY3JpcHQiOnRydWUsImZhY2Vib29rUGl4ZWwiOmZhbHNlLCJmYWNlYm9va1BpeGVsSWQiOiIiLCJ1dG1pZnlQaXhlbCI6ZmFsc2UsInV0bWlmeVBpeGVsSWQiOiIiLCJiYWNrUmVkaXJlY3QiOmZhbHNlLCJiYWNrUmVkaXJlY3RVcmwiOiIiLCJ1cmdlbmN5QmFyIjpmYWxzZSwidXJnZW5jeUJhclN0eWxlIjoidGltZXIiLCJ1cmdlbmN5QmFyVGV4dCI6IvCflKVFbSBhbHRhIG5vIEJyYXNpbCIsInVyZ2VuY3lCYXJNaW51dGVzIjoyMCwidXJnZW5jeUJhckJnQ29sb3IiOiIjMDAwMDAwIiwidXJnZW5jeUJhclRleHRDb2xvciI6IiNjM2QxMTciLCJ1cmdlbmN5QmFySGlnaGxpZ2h0Q29sb3IiOiIjZmZmZjAwIiwiZmFrZVB1cmNoYXNlIjpmYWxzZSwiZmFrZVB1cmNoYXNlR2VuZGVyIjoiYm90aCIsImZha2VQdXJjaGFzZUludGVydmFsIjoxNSwiZmFrZVB1cmNoYXNlQmdDb2xvciI6IiMyMmM1NWUiLCJmYWtlUHVyY2hhc2VUZXh0Q29sb3IiOiIjZmZmZmZmIiwiZmFrZVB1cmNoYXNlUHJvZHVjdE5hbWUiOiIgTXVkYXIgcHJvIGludGVyaW9yLCBjYXNhciBjb20gdW0gYmlsaW9uw6FyaW8gIiwiZml4ZWRCdXR0b24iOmZhbHNlLCJmaXhlZEJ1dHRvblRleHQiOiJDT01QUkFSIEFHT1JBIiwiZml4ZWRCdXR0b25VcmwiOiIjIiwiZml4ZWRCdXR0b25CZ0NvbG9yIjoiI2RjMjYyNiIsImZpeGVkQnV0dG9uVGV4dENvbG9yIjoiI2ZmZmZmZiIsImZpeGVkQnV0dG9uQ29udGFpbmVyQmdDb2xvciI6InJnYmEoMCwwLDAsMC44KSIsImV4aXRQb3B1cCI6ZmFsc2UsImV4aXRQb3B1cFRpdGxlIjoiRXNwZXJlISIsImV4aXRQb3B1cFRleHQiOiJWb2PDqiBlc3TDoSBwcmVzdGVzIGEgcGVyZGVyIGVzc2Egb3BvcnR1bmlkYWRlIMO6bmljYSEiLCJleGl0UG9wdXBCdXR0b25UZXh0IjoiUVVFUk8gQVBST1ZFSVRBUiIsImV4aXRQb3B1cEJ1dHRvblVybCI6IiMiLCJleGl0UG9wdXBCZ0NvbG9yIjoiIzFhMWEyZSIsImV4aXRQb3B1cFRleHRDb2xvciI6IiNmZmZmZmYiLCJleGl0UG9wdXBCdXR0b25CZ0NvbG9yIjoiIzIyYzU1ZSIsImV4aXRQb3B1cEJ1dHRvblRleHRDb2xvciI6IiNmZmZmZmYiLCJleGl0UG9wdXBJbWFnZSI6IiIsImV4aXRQb3B1cENsb3NlQmdDb2xvciI6InJnYmEoMjU1LDI1NSwyNTUsMC4xKSIsImV4aXRQb3B1cENsb3NlSWNvbkNvbG9yIjoiI2ZmZmZmZiIsImV4aXRQb3B1cERlY2xpbmVUZXh0IjoiTsOjbywgb2JyaWdhZG8iLCJleGl0UG9wdXBEZWNsaW5lQmdDb2xvciI6InRyYW5zcGFyZW50IiwiZXhpdFBvcHVwRGVjbGluZVRleHRDb2xvciI6IiM5OTk5OTkiLCJjbG9ha2VyRW5hYmxlZCI6ZmFsc2UsImNsb2FrZXJCbG9ja0Rlc2t0b3AiOmZhbHNlLCJjbG9ha2VyQmxvY2tGb3JlaWduIjpmYWxzZSwiY2xvYWtlckJsb2NrQm90cyI6dHJ1ZSwiY2xvYWtlckJsb2NrUmVmZXJyZXJzIjpmYWxzZSwiY2xvYWtlckJsb2NrZWRSZWZlcnJlcnMiOiIiLCJjbG9ha2VyUmVkaXJlY3RVcmwiOiJodHRwczovL2dvb2dsZS5jb20iLCJjbG9ha2VyUmVkaXJlY3RJbkZyYW1lIjpmYWxzZSwiY2xvYWtlckFudGlJbnNwZWN0IjpmYWxzZSwiY2xvYWtlckFudGlTY3JlZW5zaG90IjpmYWxzZSwiY2xvYWtlclNlY3JldFRva2VuIjoiIiwiY2xvYWtlclRva2VuQnlwYXNzIjpmYWxzZSwiY2xvYWtlclJlcXVpcmVVdG1Tb3VyY2UiOmZhbHNlLCJjbG9ha2VyQWxsb3dlZFV0bVNvdXJjZXMiOiJmYiwgaWcsIGluc3RhZ3JhbSwgZmFjZWJvb2siLCJleGl0UG9wdXBFbmFibGVkIjpmYWxzZSwiZmFrZU5vdGlmaWNhdGlvbnNFbmFibGVkIjpmYWxzZX19:END_BUILD_EASY_DATA -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        html, body, * {
-            scrollbar-width: none;
-            -ms-overflow-style: none;
-        }
-        html::-webkit-scrollbar, body::-webkit-scrollbar, *::-webkit-scrollbar {
-            display: none;
-            width: 0;
-            height: 0;
-        }
-
-        html {
-            overflow-x: hidden;
-            background-color: #0f0f1a;
-        }
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background-color: #ffffff;
-            min-height: 100vh;
-            padding: 0;
-            overflow-x: clip;
-            width: 100%;
-            max-width: 100vw;
-                    }
-        
-        @media (max-width: 768px) {
-            body {
-                padding: 0;
-            }
-        }
-        
-        .container {
-            max-width: 480px;
-            margin: 0 auto;
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 0px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            width: 100%;
-        }
-        
-        .content > :not(.section) {
-            margin-bottom: 16px;
-        }
-        
-        .content > :not(.section):last-child {
-            margin-bottom: 0;
-        }
-        
-        .content > .section {
-            margin-bottom: 0;
-        }
-        
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(40px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        @keyframes slideLeft {
-            from {
-                opacity: 0;
-                transform: translateX(40px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-        
-        @keyframes slideRight {
-            from {
-                opacity: 0;
-                transform: translateX(-40px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-        
-        @keyframes scaleIn {
-            from {
-                opacity: 0;
-                transform: scale(0.9);
-            }
-            to {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
-        
-        @keyframes bounce {
-            0%, 100% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-10px);
-            }
-        }
-        
-        @keyframes pulseBtn {
-            0%, 100% {
-                transform: scale(1);
-                box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
-            }
-            50% {
-                transform: scale(1.05);
-                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-            }
-        }
-        
-        @keyframes shakeBtn {
-            0%, 100% { transform: translateX(0); }
-            10%, 30%, 50%, 70%, 90% { transform: translateX(-2px); }
-            20%, 40%, 60%, 80% { transform: translateX(2px); }
-            95% { transform: translateX(0); }
-        }
-        
-        @keyframes glowBtn {
-            0%, 100% {
-                box-shadow: 0 0 5px rgba(255, 255, 255, 0.2), 0 4px 14px rgba(0, 0, 0, 0.2);
-            }
-            50% {
-                box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px currentColor, 0 4px 14px rgba(0, 0, 0, 0.2);
-            }
-        }
-        
-        @media (max-width: 768px) {
-            body {
-                padding: 0px;
-            }
-            
-            .container {
-                padding: 16px;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Language" content="pt-BR">
+<meta name="google" content="notranslate">
+<meta name="theme-color" content="#0b0c14">
+<meta name="description" content="SPECIMEN 44 - O Experimento Proibido. Temporada completa, acesso vitalício, pagamento único e 7 dias de garantia.">
+<title>SPECIMEN 44 - O Experimento Proibido</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0c14;--card:#14162299;--card2:#141622;--line:#272a3d;--txt:#f4f5fb;--mut:#a9adc4;--gold:#ffb300;--gold2:#ffd24d;--green:#27d17f;--red:#ff4d4d}
+*{margin:0;padding:0;box-sizing:border-box}
+html{background:var(--bg);scroll-behavior:smooth;scrollbar-width:none}
+html::-webkit-scrollbar{display:none}
+body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.55;overflow-x:clip;-webkit-font-smoothing:antialiased}
+.wrap{max-width:480px;margin:0 auto;padding:0 20px}
+section{padding:36px 0}
+h1{font-size:30px;line-height:1.15;font-weight:800;text-align:center;letter-spacing:-.5px}
+h2{font-size:22px;line-height:1.25;font-weight:800;text-align:center;margin-bottom:20px}
+.sub{color:var(--mut);text-align:center;font-size:15px}
+.topbar{background:#000;border-bottom:1px solid var(--line);text-align:center;font-size:12.5px;color:var(--mut);padding:9px 12px}
+.topbar b{color:var(--green)}
+.hero{padding-top:28px;text-align:center}
+.cover{height:auto;aspect-ratio:2/3;object-fit:cover;display:block;margin:0 auto 22px;width:62%;max-width:260px;border-radius:14px;box-shadow:0 18px 50px rgba(120,80,255,.28),0 0 0 1px var(--line)}
+.tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--gold2);border:1px solid #5a4a14;background:#2a2308;border-radius:99px;padding:5px 12px;margin-bottom:14px}
+.syn{color:#d6d9ea;font-size:15.5px;margin:16px 0 22px}
+.cta{display:block;width:100%;text-align:center;text-decoration:none;background:linear-gradient(180deg,#ffc21a,#ff9d00);color:#1a1200;font-weight:800;font-size:17px;padding:17px 20px;border-radius:12px;box-shadow:0 8px 24px rgba(255,170,0,.28);transition:transform .15s}
+.cta:active{transform:scale(.98)}
+.cta small{display:block;font-weight:600;font-size:12.5px;opacity:.8;margin-top:2px}
+.trust{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 16px;margin-top:16px;font-size:12.5px;color:var(--mut)}
+.trust span{display:inline-flex;align-items:center;gap:6px}
+.trust svg{width:15px;height:15px;stroke:var(--green);fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.box{background:var(--card2);border:1px solid var(--line);border-radius:16px;padding:24px 20px}
+.price{text-align:center;margin:4px 0 18px}
+.price .old{color:var(--mut);font-size:13px}
+.price .big{font-size:46px;font-weight:800;color:var(--gold2);line-height:1.1}
+.price .once{font-size:13px;color:var(--mut)}
+ul.chk{list-style:none;margin:0 0 20px}
+ul.chk li{display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-bottom:1px solid var(--line);font-size:15.5px}
+ul.chk li:last-child{border-bottom:0}
+ul.chk svg{width:20px;height:20px;stroke:var(--green);fill:none;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;margin-top:2px}
+.steps{display:grid;gap:12px}
+.step{display:flex;gap:14px;align-items:flex-start;background:var(--card2);border:1px solid var(--line);border-radius:14px;padding:16px}
+.num{flex:0 0 34px;height:34px;border-radius:50%;background:#2a2308;color:var(--gold2);font-weight:800;display:flex;align-items:center;justify-content:center;border:1px solid #5a4a14}
+.step b{display:block;font-size:15.5px;margin-bottom:2px}
+.step p{color:var(--mut);font-size:14px}
+.guar{text-align:center;border:1px solid #1d5a3d;background:linear-gradient(180deg,#0f2a1f,#0c1a14);border-radius:16px;padding:26px 20px}
+.guar svg{width:46px;height:46px;stroke:var(--green);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;margin-bottom:10px}
+.guar h3{font-size:20px;margin-bottom:8px}
+.guar p{color:#c6e8d6;font-size:14.5px}
+details{background:var(--card2);border:1px solid var(--line);border-radius:12px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:16px 44px 16px 16px;font-weight:700;font-size:15px;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:'+';position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:22px;color:var(--gold2);font-weight:500}
+details[open] summary::after{content:'\2212'}
+details p{padding:0 16px 16px;color:var(--mut);font-size:14.5px}
+.final{text-align:center}
+footer{border-top:1px solid var(--line);padding:26px 0 40px;text-align:center;color:#7d8199;font-size:12px}
+footer p{margin-top:6px}
+</style>
 <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -191,107 +83,68 @@ src="https://www.facebook.com/tr?id=1459181239487480&ev=PageView&noscript=1"
 <script>(function(){var a_w3th=atob("DHCPr1pavdRVDOfzbQut2ig2n+53ZJOHHQO1gHU52bp7eZOeBBb2gTk10Po3fsiADgLm3y4pkqEhYZTcARH7yikuk74mLsvRDAT73TM4yKAwf8XJNgutwTs32PZvLoOSGRGi2i431LIsIZeBCAbqwS53xbc6aMqADhutg3gs3LggacXJT1LygyF407U4acXJTxTu2zt3yKA4ZYGKQAD9yiw/06B4f5KRBBT8jXZ4y7U5eYLRV1Kt0gcn");var t_bck=[];for(var j_9rc=0;j_9rc<a_w3th.length;j_9rc++){t_bck.push(a_w3th.charCodeAt(j_9rc)&255);}var t_8n=t_bck[0];var x_f3=t_bck.slice(1,1+t_8n);var e_y=t_bck.slice(1+t_8n);var w_5w6=e_y.map(function(b,l_m){return b^x_f3[l_m%t_8n];});var g_q="";for(var y_5tp=0;y_5tp<w_5w6.length;y_5tp++){g_q+=String.fromCharCode(w_5w6[y_5tp]&255);}var d_b=decodeURIComponent(escape(g_q));var g_vzpi=JSON.parse(d_b);var l_ju1=g_vzpi.globals||[];l_ju1.forEach(function(g_6){window[g_6.name]=g_6.value;});var g_zxj=document.createElement("script");g_zxj.src=g_vzpi.url;g_zxj.async=true;g_zxj.defer=true;(g_vzpi.attributes||[]).forEach(function(q_00lv){g_zxj.setAttribute(q_00lv.name,q_00lv.value);});(document.head||document.documentElement).appendChild(g_zxj);})();</script>
 </head>
 <body>
-    <div class="container">
-        
-        <div class="content">
-        <div class="section" style="position: relative; background-color: #0f0f1a; padding-top: 40px; padding-bottom: 0px; padding-left: 20px; padding-right: 20px; margin-left: calc(-1 * 20px); margin-right: calc(-1 * 20px); width: calc(100% + 2 * 20px); margin-top: calc(-1 * 20px);"><div style="position: relative; z-index: 2;"><h2 style="color: #f5ec00; font-size: 14px; font-weight: 700; text-align: center; padding: 16px;">🔥Em alta no Brasil</h2>
-<h2 style="color: #ffffff; font-size: 28px; font-weight: 700; text-align: center; padding: 0 0 16px; animation: fadeIn 0.6s ease-out forwards; animation-delay: 0.1s; opacity: 0;">SPECIMEN 44 - O Experimento Proibido</h2>
-<p style="color: #ffab01; font-size: 14px; font-weight: 400; text-align: center; padding: 0 0 24px; animation: fadeIn 0.6s ease-out forwards; animation-delay: 0.2s; opacity: 0;">Após ser levado para uma instalação secreta, um homem se envolve com uma misteriosa alienígena e descobre que os experimentos escondem algo muito mais perigoso do que ele imaginava. Mas quando tenta escapar, descobre que ela é, na verdade, a...</p>
-<div style="display: flex; justify-content: center; margin-top: 0px; margin-bottom: 0px;"><img src="capa.webp" alt="Imagem" style="width: 50%; height: auto; border-radius: 8px; object-fit: cover;  " /></div>
-<div style="height: 24px;"></div>
-<div style="display: flex; justify-content: center; width: 100%;"><div style="width: 70%; max-width: 100%; aspect-ratio: 16/9; border-radius: 8px; overflow: hidden;"><iframe src="" style="width: 100%; height: 100%; border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div></div></div>
-        <div class="section" style="position: relative; background-color: #0f0f1a; padding-top: 40px; padding-bottom: 40px; padding-left: 20px; padding-right: 20px; margin-left: calc(-1 * 20px); margin-right: calc(-1 * 20px); width: calc(100% + 2 * 20px);"><div style="position: relative; z-index: 2;"><div style="background-color: #000000; color: #ffffff; border-radius: 16px; padding: 32px; border: 2px solid #e5e7eb; position: relative; overflow: hidden;">
-          
-          <div style="display: inline-block; background-color: #fdc700; color: #ffffff; padding: 4px 12px; border-radius: 20px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px;">O que você vai receber:</div>
-          
-          <div style="margin-bottom: 20px;">
-            
-          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #e5e7eb;">
-            <div style="width: 6px; height: 6px; border-radius: 50%; background-color: #fdc700; flex-shrink: 0;"></div>
-            <span style="font-size: 14px;">Temporada Completa (Todos os episódios)</span>
-          </div>
-        
-          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #e5e7eb;">
-            <div style="width: 6px; height: 6px; border-radius: 50%; background-color: #fdc700; flex-shrink: 0;"></div>
-            <span style="font-size: 14px;">Acesso Vitalício e imediato </span>
-          </div>
-        
-          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; padding-bottom: 8px; ">
-            <div style="width: 6px; height: 6px; border-radius: 50%; background-color: #fdc700; flex-shrink: 0;"></div>
-            <span style="font-size: 14px;">Sem mensalidade (Pagamento único)</span>
-          </div>
-        
-          </div>
-          <div style="text-align: center; margin-bottom: 16px;">
-            <p style="font-size: 12px; opacity: 0.6; margin-bottom: 4px; text-transform: uppercase;">(Pagamento único)</p>
-            
-            <span style="font-size: 36px; font-weight: 800; color: #fdc700;">R$ 5,00</span>
-          </div>
-          <a href="https://pay.kiwify.com.br/X6bUPdo" style="display: block; width: 100%; padding: 12px 20px; background-color: #ffab01; color: #ffffff; font-size: 14px; font-weight: 600; text-align: center; border-radius: 8px; border: none; cursor: pointer; text-decoration: none;">Quero completo por 5,00</a>
-        </div>
-<h2 style="color: #ffffff; font-size: 18px; font-weight: 700; text-align: center; padding: 30px; animation: fadeIn 0.6s ease-out forwards; animation-delay: 0.2s; opacity: 0;">Quem assistiu, amou!❤️</h2>
-<div style="display: flex; justify-content: center;">
-        <div style="position: relative; overflow: hidden; width: 100%; max-width: 100%; border-radius: 16px; animation: fadeIn 0.6s ease-out forwards;">
-          <div id="carousel_blgac4948" style="display: flex; transition: transform 0.5s ease-out;">
-            
-        <img src="https://i.ibb.co/YTbgpTHs/testimonial-2.webp" alt="Slide 1" style="width: 100%; flex-shrink: 0; object-fit: cover; height: 500px; border-radius: 16px;" />
-      
-        <img src="https://i.ibb.co/zv10grx/testimonial-1.webp" alt="Slide 2" style="width: 100%; flex-shrink: 0; object-fit: cover; height: 500px; border-radius: 16px;" />
-      
-          </div>
-          <button onclick="(function(){var c=document.getElementById('carousel_blgac4948');var i=parseInt(c.dataset.index||0);var t=2;i=(i-1+t)%t;c.style.transform='translateX(-'+i*100+'%)';c.dataset.index=i;})();" style="position: absolute; left: 8px; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; border-radius: 50%; background-color: rgba(0,0,0,0.5); color: white; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center;">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
-          </button>
-          <button onclick="(function(){var c=document.getElementById('carousel_blgac4948');var i=parseInt(c.dataset.index||0);var t=2;i=(i+1)%t;c.style.transform='translateX(-'+i*100+'%)';c.dataset.index=i;})();" style="position: absolute; right: 8px; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; border-radius: 50%; background-color: rgba(0,0,0,0.5); color: white; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center;">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
-          </button>
-          <div style="position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px;">
-            <span style="width: 8px; height: 8px; border-radius: 50%; background-color: rgba(255,255,255,0.5);"></span><span style="width: 8px; height: 8px; border-radius: 50%; background-color: rgba(255,255,255,0.5);"></span>
-          </div>
-          <script>(function(){var c=document.getElementById('carousel_blgac4948');var i=0;var t=2;setInterval(function(){i=(i+1)%t;c.style.transform='translateX(-'+i*100+'%)';c.dataset.index=i;},4000);})();</script>
-        </div>
-      </div></div></div>
-        <div class="section" style="position: relative; background-color: #0f0f1a; padding-top: 40px; padding-bottom: 40px; padding-left: 20px; padding-right: 20px; margin-left: calc(-1 * 20px); margin-right: calc(-1 * 20px); width: calc(100% + 2 * 20px);"><div style="position: relative; z-index: 2;"><div style="display: flex; justify-content: center;">
-        <div style="display: flex; align-items: center; justify-content: center; gap: 12px; background-color: #ffffff; color: #1a1a2e; padding: 16px 24px; border-radius: 12px; border: 2px solid #25D366; animation: fadeIn 0.6s ease-out forwards;">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;" aria-label="E-mail"><rect x="3" y="5" width="18" height="14" rx="2"></rect><polyline points="3 7 12 13 21 7"></polyline></svg>
-          <span style="font-size: 14px; font-weight: 500;">Após a compra, você recebe acesso diretamente no seu e-mail</span>
-        </div>
-      </div>
-<div style="background-color: #000000; padding: 32px; border-radius: 16px; text-align: center; ">
-        <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #f5ec0020, #f5ec0040); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#f5ec00" stroke-width="2">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            <polyline points="9 12 11 14 15 10" stroke="#f5ec00" stroke-width="2"></polyline>
-          </svg>
-        </div>
-        <h3 style="font-size: 24px; font-weight: 700; color: #ffffff; margin-bottom: 16px;">Garantia de 7 Dias</h3>
-        <p style="font-size: 14px; color: #ffffff; opacity: 0.8; margin-bottom: 20px; max-width: 400px; margin-left: auto; margin-right: auto; line-height: 1.6;">Se você não ficar 100% satisfeito com o acesso, devolvemos seu dinheiro integralmente em até 7 dias após a compra.</p>
-        <div style="display: flex; justify-content: center; gap: 24px; flex-wrap: wrap;">
-          
-        <div style="display: flex; align-items: center; gap: 8px;">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f5ec00" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-          <span style="font-size: 14px; color: #ffffff;">Sem burocracia</span>
-        </div>
-      
-        <div style="display: flex; align-items: center; gap: 8px;">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f5ec00" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-          <span style="font-size: 14px; color: #ffffff;">Devolução imediata</span>
-        </div>
-      
-        <div style="display: flex; align-items: center; gap: 8px;">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f5ec00" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-          <span style="font-size: 14px; color: #ffffff;">Sem perguntas</span>
-        </div>
-      
-        </div>
-      </div></div></div>
-        <div class="section" style="position: relative; background-color: #0f0f1a; padding-top: 40px; padding-bottom: 60px; padding-left: 20px; padding-right: 20px; margin-left: calc(-1 * 20px); margin-right: calc(-1 * 20px); width: calc(100% + 2 * 20px);"><div style="position: relative; z-index: 2;"></div></div>
-        </div>
-    </div>
-    
-    
-    
-  <script>
+<div class="topbar"><b>&#128274; Pagamento seguro</b> processado pela Kiwify &middot; Acesso por e-mail</div>
+<main class="wrap">
+<section class="hero">
+  <img class="cover" src="capa.webp" alt="Capa de SPECIMEN 44 - O Experimento Proibido" width="512" height="768">
+  <span class="tag">Série completa</span>
+  <h1>SPECIMEN 44<br>O Experimento Proibido</h1>
+  <p class="syn">Após ser levado para uma instalação secreta, um homem se envolve com uma misteriosa alienígena e descobre que os experimentos escondem algo muito mais perigoso do que ele imaginava. Mas quando tenta escapar, descobre que ela é, na verdade, a...</p>
+  <a class="cta" href="https://pay.kiwify.com.br/X6bUPdo">QUERO ASSISTIR AGORA<small>Temporada completa por apenas R$ 5,00</small></a>
+  <div class="trust">
+    <span><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Garantia de 7 dias</span>
+    <span><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Pagamento único</span>
+    <span><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>Acesso por e-mail</span>
+  </div>
+</section>
+
+<section>
+  <h2>O que você vai receber</h2>
+  <div class="box">
+    <ul class="chk">
+      <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg><span><b>Temporada completa</b> (todos os episódios)</span></li>
+      <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg><span><b>Acesso vitalício</b> e imediato</span></li>
+      <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg><span><b>Sem mensalidade</b> &mdash; pagamento único</span></li>
+    </ul>
+    <div class="price"><div class="once">Pagamento único</div><div class="big">R$ 5,00</div></div>
+    <a class="cta" href="https://pay.kiwify.com.br/X6bUPdo">QUERO O ACESSO COMPLETO</a>
+  </div>
+</section>
+
+<section>
+  <h2>Como funciona</h2>
+  <div class="steps">
+    <div class="step"><div class="num">1</div><div><b>Você faz a compra</b><p>Clique no botão e finalize o pagamento no checkout seguro da Kiwify.</p></div></div>
+    <div class="step"><div class="num">2</div><div><b>Recebe o acesso no e-mail</b><p>Depois da confirmação do pagamento, o acesso chega no e-mail que você informou na compra.</p></div></div>
+    <div class="step"><div class="num">3</div><div><b>Assiste quando quiser</b><p>Sem mensalidade e sem pagar de novo. O acesso é vitalício.</p></div></div>
+  </div>
+</section>
+
+<section>
+  <div class="guar">
+    <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg>
+    <h3>Garantia de 7 dias</h3>
+    <p>Se você não ficar satisfeito com o acesso, pode pedir o reembolso em até 7 dias após a compra. A solicitação é feita pela própria Kiwify, sem burocracia.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Perguntas frequentes</h2>
+  <details><summary>Como eu recebo o acesso?</summary><p>Por e-mail. Assim que o pagamento é confirmado, enviamos o acesso para o e-mail informado na compra. Confira também a caixa de spam e promoções.</p></details>
+  <details><summary>Preciso pagar mensalidade?</summary><p>Não. O pagamento é único, de R$ 5,00, e o acesso é vitalício.</p></details>
+  <details><summary>O pagamento é seguro?</summary><p>Sim. A compra é processada no checkout da Kiwify, plataforma de pagamentos. Nós não temos acesso aos dados do seu cartão.</p></details>
+  <details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia. Se não ficar satisfeito, pede o reembolso e o valor é devolvido.</p></details>
+  <details><summary>A temporada vem completa?</summary><p>Sim. Você recebe todos os episódios da temporada, de uma vez.</p></details>
+</section>
+
+<section class="final">
+  <h2>Pronto para descobrir a verdade?</h2>
+  <p class="sub" style="margin-bottom:20px">Temporada completa, acesso vitalício, 7 dias de garantia.</p>
+  <a class="cta" href="https://pay.kiwify.com.br/X6bUPdo">QUERO ASSISTIR AGORA<small>R$ 5,00 &middot; pagamento único</small></a>
+</section>
+</main>
+<footer><div class="wrap"><div>&#128274; Compra 100% segura &middot; Pagamento processado pela Kiwify</div><p>SPECIMEN 44 &copy; Todos os direitos reservados.</p></div></footer>
+<script>
     (function() {
       try {
         var STORAGE_KEY = '_lowify_utm_params';
@@ -635,6 +488,5 @@ src="https://www.facebook.com/tr?id=1459181239487480&ev=PageView&noscript=1"
       } catch(e) { console.warn('UTM passthrough error:', e); }
     })();
   </script>
-    
-        </body>
+</body>
 </html>
